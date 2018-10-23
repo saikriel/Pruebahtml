@@ -50,7 +50,10 @@ margin-top: auto;
         display: block;
         position: fixed;
         right: 0;
+<<<<<<< HEAD
         top: 100px;
+=======
+>>>>>>> ebf0d1d806c08f4a168ddcfe406f564c9d0f11bc
         background-color: #0089d3;
         padding: 20px;
         color: white;
