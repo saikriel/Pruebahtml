@@ -50,6 +50,7 @@ margin-top: auto;
         display: block;
         position: fixed;
         right: 0;
+        top: 100px;
         background-color: #0089d3;
         padding: 20px;
         color: white;
