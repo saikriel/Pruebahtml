@@ -1,11 +1,14 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
 .nav-main {
-    background-color: #0089d3;
+    background-color: rgb(241, 238, 238);
 }
 nav.navbar-inverse .nav li a {
-    color: white;
+    color: grey;
 }
 .nav-main__home {
-    color: white;
+    color: grey;
     font-size: 3.5rem;
 }
 .nav-main__brand {
@@ -28,34 +31,90 @@ background-color: rgb(241, 238, 238);
     box-sizing: border-box;
 }
 .noticias__titulo{
+    font-family: 'Lora', serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: bold;
 }
 .noticias__img {
-display: block;
 margin-top: auto;
 }
 .objetivos {
 
 }
+.objetivos__titulo {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    text-align: center;
+}
 
 .objetivos__content {
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 1.5rem;
 }
 .footer {
-
+ background-color: rgb(102, 101, 101);
+ color: white;
 }
 .footer__titulo {
     font-style: bold;
+    font-family: 'Lora', serif;
+}
+.footer__direccion {
+    margin-top: 100px;
+    text-align: center;
+
+}
+.footer__icon {
+    font-size: 3rem;
+    
 }
 
+/* Nosotros */
+
+.nosotros-banner {
+    background-image: url(assets/bannernosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 20px;
+    padding: 80px;
+    text-align: center;
+}
+.nosotros__content {
+    font-size: 2rem;
+}
+.historia {
+    background-color: rgb(238, 237, 237);
+}
+.consejo-general {
+    text-align: center;
+}
+
+/* Blog */
+
+.blog {
+    margin-top: 55px;
+}
+.blog__title {
+    text-align: center;
+    border-bottom: 0.3rem solid; 
+    border-color: #0089d3;
+    margin-bottom: 20px;
+}
+.blog__barra {
+    border-left: 0.2rem solid;
+    border-color:rgb(238, 237, 237);
+}
+.blog__button{
+margin-bottom: 5px;
+}
 @media (min-width: 780px) {
     .donaciones {
         display: block;
         position: fixed;
         right: 0;
-        top: 100px;
+        top: 300px;
         background-color: #0089d3;
         padding: 20px;
         color: white;
@@ -73,10 +132,7 @@ margin-top: auto;
         margin-top: -20px;
         margin-right: -10px;
     }
-    .objetivos__img {
-        height: 400px;
-       
-    }
+    
 }
 @media (max-width: 781px) {
     .donaciones {
@@ -90,8 +146,7 @@ margin-top: auto;
         margin-top: -20px;
         margin-right: -10px;
     }
-    .objetivos__img {
-        height: 300px;
+
   
-    }
 }
+
