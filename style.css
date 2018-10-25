@@ -1,6 +1,9 @@
 body {
     font-family: 'PT Sans', sans-serif;
 }
+.titulo {
+    font-family: 'Lora', serif;
+}
 .nav-main {
     background-color: rgb(241, 238, 238);
 }
@@ -65,9 +68,15 @@ margin-top: auto;
     text-align: center;
 
 }
+.footer__contacto {
+    margin-top: 50px;
+}
 .footer__icon {
     font-size: 3rem;
     
+}
+.footer__enviar {
+    margin-top: 5px;
 }
 
 /* Nosotros */
@@ -86,6 +95,10 @@ margin-top: auto;
 }
 .historia {
     background-color: rgb(238, 237, 237);
+    text-align: center;
+}
+.organizacion {
+    text-align: center;
 }
 .consejo-general {
     text-align: center;
