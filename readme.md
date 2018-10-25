@@ -1,1 +1,1 @@
-https://github.com/saikriel/Pruebahtml
+https://saikriel.github.io/Pruebahtml/index.html
